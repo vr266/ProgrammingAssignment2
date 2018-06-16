@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
   getinverse <- function() i#gets the inverse value
   list(set = set, get = get,
        setinverse = setinverse,
-       getinverse = getinverse)#list that contains the functions and values
+       getinverse = getinverse)#list that contains the functions and values, and "caches" the matrix values
 }
 
 
